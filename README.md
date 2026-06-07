@@ -31,3 +31,11 @@ Landing page desenvolvida para a ONG Vida Animal, com o objetivo de divulgar a c
 Luis Felipe
 Kaique Ribeiro
 Douglas Gomes
+
+## 📸 Créditos
+
+As imagens dos animais disponíveis para adoção são de animais reais e pertencem ao **Instituto Caramelo**.
+
+- 🔗 [Instituto Caramelo](https://institutocaramelo.org/adote)
+
+> ⚠️ **Aviso:** As imagens dos animais disponíveis para adoção utilizadas neste projeto pertencem ao Instituto Caramelo e foram usadas exclusivamente para fins educacionais, como parte de um Projeto Integrador da faculdade.
