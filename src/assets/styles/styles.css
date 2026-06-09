@@ -70,7 +70,7 @@
 
     color: #224057;
 
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -163,6 +163,10 @@ header {
     font-size: 16px;
 }
 
+.ancoras >a:hover {
+    color: #FCEEBD;
+}
+
 .hero-header {
     display: flex;
     padding: 0 112px 78px;
@@ -225,8 +229,12 @@ header {
 .cta-hero-button:hover {
     background-color: #4476A3;
     color: #FFFEFC;
-    box-shadow: 0 1px 8px rgba(255, 254, 252, 0.1);
+    box-shadow: 0 1px 8px rgba(255, 255, 255, 0.1);
 
+}
+
+.cta-hero-button > button > a:hover {
+    color: white;
 }
 
 /* Seção - Sobre a OVA */
@@ -306,7 +314,7 @@ main {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding: 0 240px 78px;
+    padding: 0 80px 78px;
     margin-top: 200px;
     width: 100%;
     height: 100vh;
@@ -314,26 +322,29 @@ main {
 
 .mission-container>div {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 88px;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    width: 1100px;
     gap: 75px;
 }
 
 
 .mission-content-primary {
     background-color: rgba(0, 0, 0, 0.16);
-    width: 388px;
+    width: 420px;
     border-radius: 24px;
     backdrop-filter: blur(2px);
-    -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
-    mask-image: linear-gradient(to right, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to left, black 60%, transparent 100%);
+    mask-image: linear-gradient(to left, black 60%, transparent 100%);
     height: auto;
     display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 }
 
 .mission-content-secundary {
-    width: 287px;
+    width: 330px;
     height: auto;
     gap: 36px;
     display: flex;
@@ -365,6 +376,10 @@ main {
     align-items: center;
 }
 
+.mission-cta-button > button:hover{
+    background-color: #4476A3;
+}
+
 .mission-cta-button>button>a {
 
     padding: 12px 24px;
@@ -373,6 +388,14 @@ main {
     font-weight: 600;
     color: #182939;
 
+}
+
+.mission-cta-button > button > a:hover {
+    color: white;
+}
+
+.mission-img {
+    padding-right: 80px;
 }
 
 /* Seção - Passo a Passo */
@@ -802,9 +825,33 @@ footer {
 .container-ova {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 32px;
     width: 480px;
     height: auto;
+}
+
+.container-ova > div {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.container-ova > div > p {
+    color: #e0e9f1;
+
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+.container-ova > div > img {
+    width: 81px;
+    height: 81px;
 }
 
 .container-ova > p {
